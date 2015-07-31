@@ -1,0 +1,91 @@
+﻿a:link {
+    color: #057363;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #057363;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: #363535;
+    text-decoration: underline;
+}
+
+#mainFeatures {
+    clear: both;
+    margin-left: 0px;
+}
+
+.mainFeature {
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+}
+
+    .mainFeature h3 {
+        font-size: 20px;
+        color: #057363;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+
+#codeClean, #codeDig, #codeReorg, #codeFormat {
+    clear: both;
+    height: 130px;
+    margin-bottom: 13px;
+    width: 665px;
+}
+
+    #codeClean img, #codeDig img, #codeReorg img, #codeFormat img {
+        margin-right: 10px;
+        float: left;
+    }
+
+    #codeClean .mainFeature, #codeDig .mainFeature, #codeReorg .mainFeature, #codeFormat .mainFeature {
+        float: left;
+        width: 470px;
+    }
+
+#subFeatures {
+    clear: both;
+}
+
+.subFeatureSet {
+    float: left;
+    margin-top: 20px;
+    padding-left: 6px;
+    padding-right: 7px;
+    width: 260px;
+}
+
+.subFeature {
+    height: 120px;
+}
+
+    .subFeature img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .subFeature h4 {
+        font-size: 16px;
+        color: #057363;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    .subFeature p {
+        width: 160px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+.subFeatureText {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
